@@ -47,5 +47,14 @@ ul{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 100%;
+    max-width: 100%; 
+}
+
+.interatividade{
+    max-width: 100px;
+    transition: transform 0.3s;
+}
+
+.interatividade:hover {
+    transform: scale(1.5); 
 }
