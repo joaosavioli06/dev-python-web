@@ -1,0 +1,44 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    color: white;
+}
+
+.margin{
+    margin: auto;
+    text-align: justify;
+    max-width: 1270px;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-size: 19px;
+}
+
+.espacamento{
+    padding-top: 30px;
+}
+
+.espacamento_par{
+    padding-top: 20px;
+}
+
+.formatacao_ul{
+    text-align: justify;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    width: 80%; /* Define a largura máxima do conteúdo */
+    max-width: 1270px; /* Define um limite máximo de largura */
+    margin: 0 auto;
+}
+
+.formatacao_ul li {
+    margin: 10px 0; /* Adiciona um espaço entre os itens */
+}
+
+ul{
+    font-size: 19px;
+}
+
