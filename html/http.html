@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/design/design_3.css">
+    <link rel="icon" href="/media/python.png" type="image/x-icon">
+    <title>Protocolo HTTP</title>
+</head>
+
+<body>  
+    <center> <h1> Protocolo HTTP e Solicitações/Respostas  </h1>  </center>
+
+    <div class="espacamento"> 
+    <center> <h2> O que é o protocolo HTTP e como funciona? </h2> </center>
+    </div>
+
+    <div class="espacamento_par"></div>
+
+    <p class="margin"> 
+        O Protocolo de Transferência de Hipertexto (HTTP) é uma linguagem padrão que permite que navegadores da web se comuniquem com 
+        servidores web. Ele serve como base para a troca de dados entre esses dois lados, permitindo que os usuários solicitem e recebam 
+        recursos da internet, como páginas da web, imagens e outros arquivos.
+        O funcionamento do HTTP envolve um processo de solicitação e resposta. Quando um usuário insere um URL na barra de endereço do 
+        navegador ou clica em um link, o navegador gera uma solicitação HTTP e a envia para o servidor correspondente. Essa solicitação 
+        contém informações sobre o recurso desejado e outros detalhes, como o método HTTP (GET, POST, etc.).
+    </p>
+
+    <br>
+
+    <p class="margin">
+        O servidor web, ao receber essa solicitação, processa-a. Ele verifica qual recurso foi solicitado, se ele existe e se o usuário tem 
+        permissão para acessá-lo. O servidor então gera uma resposta HTTP que inclui informações sobre o recurso, códigos de status 
+        (indicando o sucesso ou erro da solicitação), cabeçalhos (informações adicionais sobre a resposta) e o conteúdo propriamente dito.
+        Após receber a resposta do servidor, o navegador interpreta os dados recebidos. Ele renderiza a página da web ou exibe o recurso
+        solicitado, interpretando o tipo de conteúdo especificado nos cabeçalhos da resposta. Isso pode incluir a exibição de texto, imagens,
+        vídeos ou interatividade, dependendo da natureza do recurso.
+    </p>
+
+    <br>
+
+    <p class="margin">
+        Em resumo, o protocolo HTTP é um meio fundamental pelo qual navegadores e servidores interagem para fornecer informações e recursos 
+        aos usuários na internet. Ele opera através de solicitações e respostas bem definidas, permitindo a exibição de conteúdo diversificado
+         nas páginas da web.
+    </p>
+
+    <div class="espacamento">
+        <center><h2> Métodos HTTP: GET, POST, PUT, DELETE. </h2></center>
+    </div>
+
+    <div class="espacamento_par"> </div>
+
+    <p class="margin">
+        Os métodos HTTP, como GET, POST, PUT e DELETE, são a base para a interação entre clientes (navegadores, aplicativos) e servidores web. 
+        Cada método tem um propósito específico:</p>
+
+        
+        
+    <ul class="formatacao_ul">
+
+        
+        <li> <b>GET:</b> Solicita dados do servidor. É usado quando o cliente quer apenas recuperar informações do 
+        servidor, como exibir uma página da web ou uma imagem. As solicitações GET podem ser armazenadas no histórico do navegador e são mais
+         facilmente cacheáveis.</li>
+        
+        <li> <b>POST:</b> Envia dados para o servidor. É usado quando o cliente deseja enviar informações ao servidor, como enviar um formulário ou 
+        fazer um upload de arquivo. As solicitações POST não são cacheáveis e geralmente não aparecem no histórico do navegador.</li>
+        
+        <li> <b>PUT:</b> Atualiza dados no servidor. É usado para enviar dados e atualizar um recurso existente no servidor. Geralmente, o servidor 
+        define o recurso especificado pelo URL para os dados fornecidos na solicitação PUT.</li>
+        
+        <li> <b>DELETE:</b> Remove um recurso no servidor. É usado para solicitar que o servidor remova um recurso identificado pelo URL. No entanto, 
+        nem todos os servidores suportam efetivamente esse método.</li>
+
+    </ul>
+
+        <p class="margin">Esses métodos são parte essencial do funcionamento da web, permitindo que aplicativos e servidores se comuniquem para realizar 
+        operações como obter, enviar, atualizar e excluir dados. Eles também desempenham um papel importante na implementação de APIs, que 
+        permitem que diferentes sistemas se integrem e compartilhem informações. </p> 
+
+        <div class="espacamento">
+        <center><h2> Estrutura de uma solicitação HTTP </h2></center>
+        </div>
+        
+        <div class="espacamento_par"> </div>
+
+        <p class="margin"> 
+        Uma solicitação HTTP tem três partes principais: a linha de requisição, os cabeçalhos e o corpo. A linha de requisição inclui o método 
+        (como GET ou POST), o caminho do recurso e a versão do protocolo. Os cabeçalhos fornecem informações extras sobre a solicitação, como o 
+        tipo de conteúdo que o cliente aceita. Após os cabeçalhos, há uma linha vazia que separa os cabeçalhos do corpo, onde os dados, se houver,
+        são colocados. Isso é como os clientes (navegadores) se comunicam com servidores web.
+        </p>
+
+        <div class="espacamento">
+            <center><h2> Estrutura de uma resposta HTTP </h2></center>
+            </div>
+            
+            <div class="espacamento_par"> </div>
+    
+        <p class="margin"> 
+        Uma resposta HTTP possui três componentes principais: a linha de status, os cabeçalhos e o corpo. A linha de status contém o código de status, 
+        indicando se a solicitação foi bem-sucedida ou se houve algum erro. Os cabeçalhos fornecem informações adicionais sobre a resposta, como tipo de 
+        conteúdo e data de modificação. Após os cabeçalhos, há uma linha vazia que separa os cabeçalhos do corpo, onde os dados, como o conteúdo da página 
+        ou imagem, são incluídos. Essa é a estrutura usada pelos servidores web para responder a solicitações feitas pelos clientes, como navegadores.
+        </p>
+
+        <div class="espaco_fim"> </div>
+        
+</body>
+</html>
