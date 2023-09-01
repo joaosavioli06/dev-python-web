@@ -23,3 +23,17 @@ p{
 .espacamento_par{
     padding-top: 20px;
 }
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+.flexx {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 300px;
+    justify-content: center;
+    margin-top: 50px;
+}

@@ -12,3 +12,5 @@
 <p> Logo HTML (Front-End): <a href="https://www.flaticon.com/free-icons/html-5" title="html 5 icons">Html 5 icons created by Freepik - Flaticon</a>
 <p> Logo CSS (Front-End): <a href="https://www.flaticon.com/free-icons/css-3" title="css 3 icons">Css 3 icons created by Freepik - Flaticon</a>
 <p> Logo JS (Front-End): <a href="https://www.flaticon.com/free-icons/javascript" title="javascript icons">Javascript icons created by Freepik - Flaticon</a>
+<p> Link vídeo Flask: <a href="https://www.youtube.com/live/kkoJTBtj4ds?feature=shared" title="Flask"> Clique aqui! </a> 
+<p> Link vídeo Django: <a href="https://youtu.be/X357aaSdya0?feature=shared" title="Flask"> Clique aqui! </a> 
