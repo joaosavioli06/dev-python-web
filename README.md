@@ -1,6 +1,28 @@
 # Desenvolvimento Web com Python
+O projeto Desenvolvimento Web com Python, consiste em um trabalho acadêmico, envolvendo uma série de pesquisas com temas norteadores sobre o desenvolvimento Python com a utilização de frameworks web. Realizei a construção de um website com os conteúdos de pesquisa, e uma simples To-do list com Flask. 
 
-## Descrição do Trabalho Escolar
+Este trabalho acadêmico foi proposto no 3º bimestre, durante o último ano do meu ensino médio integrando ao técnico em TI. Este projeto me ajudou a impulsionar e aprender novas práticas utilizando HTML, CSS, Git e GitHub. Assim como em outros projetos, este me ajudou a desenvolver novos conhecimentos, e a também a melhorar meu conhecimento na área da programação no geral.
+
+As informações contidas no site, são de certa forma, simples e sucintas. Um dos objetivos do trabalho, era não colocar informações em massa, para que a leitura fosse um pouco mais descontraída e direta.
+
+## Tópicos Norteadores
+
+O trabalho consistia em realizar uma pesquisa sobre os seguintes tópicos:
+
+* Introdução ao Desenvolvimento Web
+* Protocolo HTTP e Solicitações/Respostas
+* Conceitos de Front-End
+* Desenvolvimento Back-End com Python
+* Construindo uma Aplicação Web Simples
+
+Cada tópico contém vários subtópicos, cada um é explicado com informações sucintas dentro das páginas específicas para cada ponto.
+
+## Projeto To-do list com Flask
+
+O projeto da To-do list, será realizada em outro repositório, aqui está o link:
+
+<a href="https://github.com/joaosavioli06/dev_python_app" title=""> Repositório da Aplicação Web </a>
+
 
 ## Créditos 
 <p> Ícone do website: <a href="https://www.flaticon.com/free-icons/python-file" title="python file icons"> Python file icons created by Flat Icons - Flaticon</a>
