@@ -1,4 +1,7 @@
 # Desenvolvimento Web com Python
+
+### **OBS:** *Projeto descontinuado, não haverá mais atualizações.*
+
 O projeto Desenvolvimento Web com Python, consiste em um trabalho acadêmico, envolvendo uma série de pesquisas com temas norteadores sobre o desenvolvimento Python com a utilização de frameworks web. Realizei a construção de um website com os conteúdos de pesquisa. 
 
 Este trabalho acadêmico foi proposto no 3º bimestre, durante o último ano do meu ensino médio integrando ao técnico em TI. Este projeto me ajudou a impulsionar e aprender novas práticas utilizando HTML, CSS, Git e GitHub. Assim como em outros projetos, este me ajudou a desenvolver novos conhecimentos, e a também a melhorar meu conhecimento na área da programação no geral.
